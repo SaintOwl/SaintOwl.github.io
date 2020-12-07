@@ -21,6 +21,13 @@
 	nav ul{
 		width: 100%;	
 	}
+
+	nav ul li:hover {
+	transition: none;
+	transform: none;
+	text-decoration: underline;
+	text-decoration-color: white;
+	}
 	nav ul li{
 		width: 50%;
 		border-left: 0;
