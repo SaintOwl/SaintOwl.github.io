@@ -1,0 +1,123 @@
+html {
+  scroll-behavior: smooth;
+}
+/*HEADER*/
+
+/*TITLE SECTION*/
+.pre-view {
+	background: url(../img/title_back.jpg) 50%/cover no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+section .cont_1 {
+	width: 55%;
+	height: 650px;
+	color: #fff;
+	display: block;
+	text-align: center;
+}
+
+section .cont_1 p{
+    margin: 0;
+    padding: 20px;	
+}
+
+section .cont_1 h1{
+    padding: 10px;	
+}
+
+.pre-title{
+	font-size: 60px;
+	padding: 20px;	
+}
+.title{
+	font-size: 30px;
+}
+
+.title_button, .button{
+	background-color: #DC223D;
+	font-size: 30px;	
+	border-radius: 50px;
+	margin: 0 auto;
+}
+
+/*INFO SECTION*/
+.comp_info{
+	font-size: 40px;
+	text-align: center;
+}
+.info{
+	font-size: 25px;
+}
+
+section .cont_2 h2{
+    padding: 20px;	
+}
+
+/*E-CAR SECTION*/
+.wrapper{
+	display: inline-flex;
+	justify-content: space-between;
+	margin-top: 30px; 
+	margin-bottom: 30px;
+}
+.car_info_img{
+	width: 58%;
+	padding: 0;
+	margin: 0;
+}
+.car_info{
+	width: 38%;
+	padding: 0;
+	margin: 0;
+}
+section .wrapper .car_info a{
+	width: 25%;
+	margin: 0;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 15px;
+	padding: 10px 40px;
+}
+.first{
+	background:rgba(118,118,118,.1);
+}
+/*MODEL S SECTION 1*/
+/*MODEL X SECTION 2*/
+.ModelX_info .wrapper{
+	flex-direction: row-reverse;
+}
+/*MODEL 3 SECTION 3*/
+/*MODEL Y SECTION 4*/
+.ModelY_info .wrapper{
+	flex-direction: row-reverse;
+}
+/*ROADSTER SECTION 5*/
+/*CYBERTRUCK SECTION 6*/
+.CyberTruck_info .wrapper{
+	flex-direction: row-reverse;
+}
+/*SEMI SECTION 7*/
+
+/*CONTACTS*/
+.cont{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.contacts{
+	text-align: center;
+	font-size: 40px;
+}
+section .cont .wrapper{
+	width: 90%;
+	display: inline-flex;
+	justify-content: space-between;
+	
+}
+section .cont p{
+	font-size: 25px;
+}
+/*FOOTER*/

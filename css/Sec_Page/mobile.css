@@ -1,0 +1,89 @@
+/*Responsive*/
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}	
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+
+}
+
+/* 769px - 890px */
+@media screen and (max-width: 890px) {
+	nav ul{
+		width: 100%;	
+	}
+	nav ul li{
+		width: 50%;
+		border-left: 0;
+		border-right: 0;
+		display: inline-flex;
+	}  
+	nav ul li a{
+		margin: 0 auto;
+	}
+}
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	.video{
+		height: 300px;
+	}
+	.button{
+		font-size: 15px;
+		padding: 10px 5px;
+	}
+
+	section .cont_2 .wrapper div{
+		padding: 10px;
+	}
+}
+
+/* 401px - 576px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+	.specifications{
+	font-size: 20px;
+	}
+	section .container .wrapper div{
+		width: 90%;
+	}
+	
+
+	.features{
+		font-size: 20px;
+	}
+
+	section .cont_4 .wrapper{
+		font-size: 15px;
+	}
+
+	.autopilot{
+		font-size: 20px;
+	}
+
+	section .cont_6 .wrapper{
+		font-size: 15px;
+	}
+
+
+}
+
+/*320px - 450px*/
+@media screen and (max-width: 450px){
+	section .container .wrapper div{
+		font-size: 15px;
+	}
+}

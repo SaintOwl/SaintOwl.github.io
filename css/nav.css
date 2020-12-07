@@ -1,0 +1,89 @@
+@font-face {
+	font-family: "MontserratRegular"; 
+	src: url("../fonts/Montserrat-Regular.ttf"); 
+	font-style: normal; 
+	font-weight: normal; 
+}
+
+@font-face {
+	font-family: "MontserratBold"; 
+	src: url("../fonts/Montserrat-Bold.ttf"); 
+	font-style: normal; 
+	font-weight: normal; 
+}
+body{
+	padding: 0;
+	margin: 0;
+	font-style: 15px;
+	font-family: "MontserratRegular";
+}
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	padding: 0;
+	font-family: "MontserratBold";
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+/*NAV*/
+ul {
+	display: table;
+	width: 100%;
+	padding: 0;
+    margin: 0;
+}
+
+
+nav ul li {
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	background-color: #767676;
+    list-style-type: none;
+	display: table-cell;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	padding: 20px 25px;
+	display: block;
+	text-align: center;
+}
+
+nav ul li:hover {
+	transition: all 0.3s ease 0s;
+	transform: scale(1.1);
+}
+
+
+/*BTN*/
+.button{
+	background-color: #DC223D;
+	font-size: 30px;	
+	border-radius: 50px;
+	margin: 0 auto;
+}
+
+
+/*FOOTER*/
+footer{
+	background-color: #767676;
+	margin-top: 20px;
+	padding: 25px 0 25px 0;
+	font-size: 15px;
+	text-align: center;
+}
+			
+.footer_logo{
+	width: 50%;
+}
+
+footer .container .footer_block p a{
+	font-size: 20px;
+	width: 25%;
+	margin-bottom: 30px;
+}
+

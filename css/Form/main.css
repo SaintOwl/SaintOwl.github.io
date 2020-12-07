@@ -1,0 +1,48 @@
+.form-section{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.form_title{
+	width: 70%;
+	font-size: 25px;
+}
+.input{
+	border: 0;
+	border-bottom: 1px solid #bbb;
+	width: 340px;
+	font-weight: 400;
+	font-size: 15px;
+    display: flex;
+    margin: 15px auto 0;
+    padding: 20px 30px;
+    color:#9c9b9f;
+}
+
+.btn {
+	color: white;
+	margin: 15px auto 0;
+	width: 25%;
+	margin-top: 40px;
+	font-weight: 900;
+	padding: 20px 0;
+	background-color: #DC223D;
+	text-align: center;
+	display: block;
+	border: 0;
+	border-radius: 50px;
+}
+
+@media screen and (max-width: 576px) {
+	.form-title{
+		font-size: 17px;
+	}
+	.input{
+		width: 80%;
+		font-size: 12px;
+	}
+	.btn{
+		width: 80%;
+	}
+}
