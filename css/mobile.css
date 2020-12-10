@@ -139,4 +139,9 @@
 	.pre-title{
 		font-size: 25px;
 	}
+	@media screen and (max-width: 370px){
+		.title_button{
+			font-size: 15px;
+		} 
+	}
 }
